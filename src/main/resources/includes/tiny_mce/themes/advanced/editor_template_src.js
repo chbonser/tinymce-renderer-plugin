@@ -637,7 +637,7 @@
 
 			// Boundery fix box
 			w = Math.max(s.theme_advanced_resizing_min_width || 100, w);
-			h = Math.max(s.theme_advanced_resizing_min_height || 100, h);
+			h = Math.max(s.theme_advanced_resizing_min_height || 400, h);
 			w = Math.min(s.theme_advanced_resizing_max_width || 0xFFFF, w);
 			h = Math.min(s.theme_advanced_resizing_max_height || 0xFFFF, h);
 

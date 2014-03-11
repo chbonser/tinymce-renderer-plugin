@@ -66,7 +66,7 @@
 			f.width = parseInt(f.width || 320);
 			f.height = parseInt(f.height || 240) + (tinymce.isIE ? 8 : 0);
 			f.min_width = parseInt(f.min_width || 150);
-			f.min_height = parseInt(f.min_height || 100);
+			f.min_height = parseInt(f.min_height || 400);
 			f.max_width = parseInt(f.max_width || 2000);
 			f.max_height = parseInt(f.max_height || 2000);
 			f.left = f.left || Math.round(Math.max(vp.x, vp.x + (vp.w / 2.0) - (f.width / 2.0)));
